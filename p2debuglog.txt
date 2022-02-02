@@ -1,7 +1,7 @@
 (gdb) b main
 Breakpoint 1 at 0x833: file p4original.c, line 32.
 (gdb) r
-Starting program: /home/runner/pps-test1-Prerana2468-1/a.out 
+Starting program: /home/runner/pps-test1-anil935-1/a.out 
 warning: Error disabling address space randomization: Operation not permitted
 
 Breakpoint 1, main () at p4original.c:32
