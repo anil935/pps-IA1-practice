@@ -1,0 +1,11 @@
+(gdb) b main
+Breakpoint 1 at 0x90b: file p9original.c, line 39.
+(gdb) r
+Starting program: /home/runner/pps-test1-anil935-1/a.out 
+warning: Error disabling address space randomization: Operation not permitted
+
+Breakpoint 1, main () at p9original.c:39
+39  {
+(gdb) n
+41    input_two_string(a, b);
+(gdb) quit
