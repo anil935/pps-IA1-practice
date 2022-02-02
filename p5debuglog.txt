@@ -1,0 +1,18 @@
+(gdb) b main
+Breakpoint 1 at 0x875: file p5original.c, line 36.
+(gdb) r
+Starting program: /home/runner/pps-IA1-practice/a.out 
+warning: Error disabling address space randomization: Operation not permitted
+
+Breakpoint 1, main () at p5original.c:36
+36    n=input();
+(gdb) n
+enter a number:
+4
+37    res=my_sqrt(n);
+(gdb) n
+38    output(n,res);
+(gdb) n
+the square root of given number 0.000000 is 0.000000
+40    return 0;
+(gdb) quit
